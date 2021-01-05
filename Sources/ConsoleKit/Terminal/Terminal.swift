@@ -9,6 +9,7 @@ import Foundation
 
 /// Generic console that uses a mixture of Swift standard
 /// library and Foundation code to fulfill protocol requirements.
+//VS
 public final class Terminal: Console {
     /// See `Console`
     public var userInfo: [AnyHashable: Any]
