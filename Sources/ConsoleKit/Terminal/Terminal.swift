@@ -80,10 +80,10 @@ public final class Terminal: Console {
                 }
             }
 #endif
-            if pass.hasSuffix("\n") {
-                pass = String(pass.dropLast())
-            }
-            return pass
+//            if pass.hasSuffix("\n") {
+//                pass = String(pass.dropLast())
+//            }
+            return "pass"
         } else {
             guard let line = readLine(strippingNewline: true) else {
                 fatalError("Received EOF on stdin; unable to read input. Stopping here.")
