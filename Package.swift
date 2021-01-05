@@ -1,7 +1,7 @@
 // swift-tools-version:5.2
 import PackageDescription
 
-//VS
+//VS3
 let package = Package(
     name: "console-kit",
     platforms: [
